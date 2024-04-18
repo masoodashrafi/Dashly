@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="dashboard.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="pending-order.html">Orders</a></li>
+                <li><a href="in-stock.html">Items</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+            <div class="logout">
+                <a href="login.html">Log Out</a>
+            </div>
+        </nav>
+    </header>
+    <aside class="category-menu">
+        <ul>
+            <li><a href="#" id="in-stock">In Stock</a></li>
+            <li><a href="#" id="out-of-stock">Out of stock</a></li>
+            <li><a href="#" id="pending-order">Pending Order</a></li>
+        </ul>
+    </aside>
+    <main class="main-content">
+        <div class="item-box">Item 1</div>
+        <div class="item-box">Item 2</div>
+        <div class="item-box">Item 3</div>
+        <div class="item-box">Item 4</div>
+        <div class="item-box">Item 5</div>
+        <div class="item-box">Item 6</div>
+        <div class="item-box">Item 7</div>
+        <div class="item-box">Item 8</div>
+    </main>
+    <aside class="summary">
+        <h3>Order Summary</h3>
+        <p>Item 1: $10</p>
+        <p>Item 2: $15</p>
+        <p>Total: $25</p>
+    </aside>
+    <script src="dashboard.js"></script>
+</body>
+</html>

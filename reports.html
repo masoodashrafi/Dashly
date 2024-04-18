@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="reports.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="pending-orders.html">Orders</a></li>
+                <li><a href="in-stock.html">Items</a></li>
+                <li><a href="#">Reports</a></li>
+            </ul>
+            <div class="logout">
+                <a href="login.html">Log Out</a>
+            </div>
+        </nav>
+    </header>
+    <main class="reports-content">
+        <div class="message-box">
+            <h2>No Reports Available</h2>
+        </div>
+        <div class="upload-options">
+            <button onclick="document.getElementById('file-upload').click()" class="upload-button">Upload File from Computer</button>
+            <input type="file" id="file-upload" style="display: none;" />
+        </div>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>

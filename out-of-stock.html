@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Out of Stock Items</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="out-of-stock.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="pending-order.html">Orders</a></li>
+                <li><a href="in-stock.html">Items</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+            <div class="logout">
+                <a href="login.html">Log Out</a>
+            </div>
+        </nav>
+    </header>
+    <main class="out-stock-content">
+        <h2>Out of Stock Items</h2>
+        <div class="out-stock-grid">
+            <div class="out-stock-item">Item F - Awaiting Delivery</div>
+            <div class="out-stock-item">Item G - Awaiting Delivery</div>
+            <div class="out-stock-item">Item H - Production Planned</div>
+            <div class="out-stock-item">Item I - Production Firm</div>
+            <div class="out-stock-item">Item J - Production Firm</div>
+            <div class="out-stock-item">Item K - Production Planned</div>
+        </div>
+        <button onclick="window.location.href='dashboard.html'" class="back-button">Back to Dashboard</button>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>

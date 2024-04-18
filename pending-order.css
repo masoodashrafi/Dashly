@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 20px 50px !important; 
+}
+
+.pending-orders-content {
+    max-width: 600px;
+    margin: 20px auto; 
+    padding: 0 50px !important;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.message-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.message-box h2 {
+    color: #d32f2f;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.order-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.order-button {
+    padding: 10px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    width: 100%;
+}
+
+.order-button:hover {
+    background-color: #b71c1c;
+}
+
+.back-button {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #404040;
+}

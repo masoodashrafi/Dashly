@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pending Orders</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="in-stock.html">Orders</a></li>
+                <li><a href="in-stock.html">Items</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+            <div class="logout">
+                <a href="login.html">Log Out</a>
+            </div>
+        </nav>
+    </header>
+    <main class="pending-orders-content">
+        <div class="message-box">
+            <h2>Pending Orders</h2>
+        </div>
+        <div class="order-options">
+            <button onclick="location.href='#'" class="order-button">Add an Order</button>
+            <button onclick="location.href='#'" class="order-button">Cancel Order</button>
+        </div>
+        <button onclick="window.location.href='dashboard.html'" class="back-button">Back to Dashboard</button>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>

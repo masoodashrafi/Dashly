@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Stock Items</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="in-stock.css"> 
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="pending-order.html">Orders</a></li>
+                <li><a href="#">Items</a></li>
+                <li><a href="reports.html">Reports</a></li>
+            </ul>
+            <div class="logout">
+                <a href="login.html">Log Out</a>
+            </div>
+        </nav>
+    </header>
+    <main class="stock-content">
+        <h2>In Stock Items</h2>
+        <div class="stock-item">
+            <span class="item-name">Item A</span>
+            <span class="item-quantity">Quantity: 20</span>
+        </div>
+        <div class="stock-item">
+            <span class="item-name">Item B</span>
+            <span class="item-quantity">Quantity: 15</span>
+        </div>
+        <div class="stock-item">
+            <span class="item-name">Item C</span>
+            <span class="item-quantity">Quantity: 10</span>
+        </div>
+        <div class="stock-item">
+            <span class="item-name">Item D</span>
+            <span class="item-quantity">Quantity: 5</span>
+        </div>
+        <button onclick="window.location.href='dashboard.html'" class="back-button">Back to Dashboard</button>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>
